@@ -128,7 +128,7 @@ nav.sticky .menu-btn {
 }
 
 /* home section styling */
-.home {
+/*.home {
   height: 100vh;
   width: 100%;
   background: url("images/background.png") no-repeat;
@@ -136,8 +136,47 @@ nav.sticky .menu-btn {
   background-position: center;
   background-attachment: fixed;
   font-family: 'Ubuntu', sans-serif;
+}*/
+/* ... (Your existing CSS) ... */
+.home { 
+  display: flex;
+  justify-content: space-between; /* Distribute elements evenly */
+  align-items: center; /* Center vertically */
+  background: url("images/background.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh; /* Ensure the section takes up full viewport height */
+  font-family: 'Ubuntu', sans-serif;
 }
 
+.home-content {
+  text-align: center; /* Center text within the content */
+  width: 50%; /* Adjust the width as needed */
+}
+
+.image-container {
+  width: 50%; /* Adjust the width as needed */
+}
+
+/* For mobile view */
+@media (max-width: 768px) {
+  .home { 
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+  }
+
+  .home-content {
+    width: 100%; /* Full width on mobile */
+  }
+
+  .image-container {
+    width: 100%; /* Full width on mobile */
+    margin-top: 20px; /* Add spacing above the image */
+  }
+}
+
+/* ... (Your other CSS) 
 .home .home-content {
   width: 90%;
   height: 100%;
@@ -145,7 +184,8 @@ nav.sticky .menu-btn {
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
+} ... */
+
 
 .home .text-one {
   font-size: 25px;
@@ -604,3 +644,56 @@ footer .text span a:hover {
     color: #FFA500; /* Orange */
   }
 }
+
+/* ... (Your existing CSS) ... */
+
+.home-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Mobile View (Adjust the breakpoint as needed) */
+@media (max-width: 768px) {
+  .home-content {
+    width: 90%;
+    padding: 10px;
+  }
+}
+
+/* iPhone 14 Styles */
+@media (max-width: 390px) and (height: 844px) {
+  .home-content {
+    font-size: 16px;
+    padding: 15px;
+  }
+}
+
+/* Samsung S25 Ultra Styles */
+@media (max-width: 1440px) and (height: 3088px) {
+  .home-content {
+    font-size: 20px;
+    padding: 25px;
+  }
+}
+
+/* Other Common Resolutions */
+@media (max-width: 360px) and (height: 640px) {
+  /* Styles for iPhone 5/SE */
+}
+
+@media (max-width: 414px) and (height: 736px) {
+  /* Styles for iPhone 6/7/8 */
+}
+
+@media (max-width: 414px) and (height: 896px) {
+  /* Styles for iPhone X/XS/11 */
+}
+
+@media (max-width: 1080px) and (height: 1920px) {
+  /* Styles for Samsung Galaxy S10+ */
+}
+
+/* ... (Your other CSS) ... */

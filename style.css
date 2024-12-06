@@ -128,16 +128,6 @@ nav.sticky .menu-btn {
 }
 
 /* home section styling */
-/*.home {
-  height: 100vh;
-  width: 100%;
-  background: url("images/background.png") no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  font-family: 'Ubuntu', sans-serif;
-}*/
-/* ... (Your existing CSS) ... */
 .home { 
   display: flex;
   justify-content: space-between; /* Distribute elements evenly */
@@ -175,17 +165,6 @@ nav.sticky .menu-btn {
     margin-top: 20px; /* Add spacing above the image */
   }
 }
-
-/* ... (Your other CSS) 
-.home .home-content {
-  width: 90%;
-  height: 100%;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-} ... */
-
 
 .home .text-one {
   font-size: 25px;
@@ -235,8 +214,6 @@ nav.sticky .menu-btn {
 }
 
 /* About Section Styling */
-/* Those Elements Where We Have Apply Same CSS,
- I'm Selecting Directly 'Section Tag' and 'Class'  */
 section {
   padding-top: 40px;
 }

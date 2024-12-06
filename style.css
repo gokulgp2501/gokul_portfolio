@@ -360,7 +360,7 @@ section .button button:hover {
   color: #FFA500; /* Orange */
 }
 
-/* My Services CSS */
+/* My accomplishments CSS */
 .accomplishments .boxes {
   display: flex;
   flex-wrap: wrap;
@@ -411,6 +411,15 @@ section .button button:hover {
 .accomplishments .boxes .box:hover p {
   color: #fff;
 }
+
+/* Mobile View (Adjust the breakpoint as needed) */
+@media (max-width: 768px) {
+  .accomplishments .boxes .box {
+    width: 100%; /* Make each box take up the full width */
+    margin-bottom: 20px; /* Add some space between boxes */
+  }
+}
+
 
 /* Contact Me CSS */
 .contact {

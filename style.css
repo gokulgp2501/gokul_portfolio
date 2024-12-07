@@ -741,4 +741,72 @@ footer .text span a:hover {
   /* Add more styles for S21 FE as needed */
 }
 
-/* ... (Your other CSS) ... */
+/* ... (Your existing CSS) ... */
+
+/* Small Phones (e.g., Samsung Galaxy J3, J5) */
+@media (max-width: 360px) and (max-height: 640px) {
+  .home-content {
+    font-size: 14px; /* Adjust font size for smaller screens */
+    padding: 10px; /* Reduce padding */
+  }
+  .about .left img {
+    height: 200px; /* Adjust image height */
+    width: 200px; /* Adjust image width */
+  }
+  /* Add more styles for smaller phones as needed */
+}
+
+/* Medium Phones (e.g., Huawei P30, P40) */
+@media (max-width: 360px) and (max-height: 800px) {
+  .home-content {
+    font-size: 16px;
+    padding: 15px;
+  }
+  /* Add more styles for medium phones as needed */
+}
+
+/* iPhone 6/6s/7/8 */
+@media (max-width: 375px) and (max-height: 667px) {
+  .home-content {
+    font-size: 16px;
+    padding: 15px;
+  }
+  /* Add more styles for iPhone 6/6s/7/8 as needed */
+}
+
+/* Large Phones (e.g., iPhone XR, XS Max, iPhone 11 Pro Max) */
+@media (max-width: 414px) and (max-height: 896px) {
+  .home-content {
+    font-size: 18px;
+    padding: 20px;
+  }
+  /* Add more styles for large phones as needed */
+}
+
+/* Tablets (e.g., iPad 2, iPad Mini, iPad Air) */
+@media (max-width: 768px) and (max-height: 1024px) {
+  .home-content {
+    font-size: 18px;
+    padding: 20px;
+  }
+  /* Add more styles for tablets as needed */
+}
+
+/* Larger Tablets (e.g., iPad Pro 9.7, 10.5) */
+@media (max-width: 1536px) and (max-height: 2048px) {
+  .home-content {
+    font-size: 20px;
+    padding: 25px;
+  }
+  /* Add more styles for larger tablets as needed */
+}
+
+/* Laptops and Monitors */
+@media (min-width: 1280px) {
+  /* Styles for laptops and monitors */
+  .home-content {
+    font-size: 22px;
+    padding: 30px;
+  }
+  /* Add more styles for laptops and monitors as needed */
+}

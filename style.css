@@ -682,19 +682,63 @@ footer .text span a:hover {
 
 /* Other Common Resolutions */
 @media (max-width: 360px) and (height: 640px) {
+  .home-content {
+    font-size: 14px;
+    padding: 12px;
+  }
   /* Styles for iPhone 5/SE */
 }
 
 @media (max-width: 414px) and (height: 736px) {
+  .home-content {
+    font-size: 16px;
+    padding: 15px;
+  }
   /* Styles for iPhone 6/7/8 */
 }
 
 @media (max-width: 414px) and (height: 896px) {
   /* Styles for iPhone X/XS/11 */
+  .home-content {
+    font-size: 15px;
+    padding: 14px;
+  }
+
 }
 
 @media (max-width: 1080px) and (height: 1920px) {
   /* Styles for Samsung Galaxy S10+ */
+  .home-content {
+    font-size:16px;
+    padding: 20px;
+  }
+}
+
+
+/* Samsung Galaxy S21 Ultra Styles */
+@media (max-width: 1440px) and (height: 3088px) {
+  .home-content {
+    font-size: 20px;
+    padding: 25px;
+  }
+  /* Add more styles for S21 Ultra as needed */
+}
+
+/* Samsung Galaxy S21, S21+, S21 FE Styles */
+@media (max-width: 1080px) and (height: 2280px) { /* S21, S21+ */
+  .home-content {
+    font-size: 18px;
+    padding: 20px;
+  }
+  /* Add more styles for S21, S21+ as needed */
+}
+
+@media (max-width: 1080px) and (height: 2400px) { /* S21 FE */
+  .home-content {
+    font-size: 18px;
+    padding: 20px;
+  }
+  /* Add more styles for S21 FE as needed */
 }
 
 /* ... (Your other CSS) ... */

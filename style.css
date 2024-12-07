@@ -664,141 +664,108 @@ footer .text span a:hover {
   }
 }
 
-/* iPhone 14 Styles */
-@media (max-width: 390px) and (height: 844px) {
-  .home-content {
-    font-size: 16px;
-    padding: 15px;
-  }
-}
-
-/* Samsung S25 Ultra Styles */
-@media (max-width: 1440px) and (height: 3088px) {
-  .home-content {
-    font-size: 20px;
-    padding: 25px;
-  }
-}
-
-/* Other Common Resolutions */
-@media (max-width: 360px) and (height: 640px) {
-  .home-content {
-    font-size: 14px;
-    padding: 12px;
-  }
-  /* Styles for iPhone 5/SE */
-}
-
-@media (max-width: 414px) and (height: 736px) {
-  .home-content {
-    font-size: 16px;
-    padding: 15px;
-  }
-  /* Styles for iPhone 6/7/8 */
-}
-
-@media (max-width: 414px) and (height: 896px) {
-  /* Styles for iPhone X/XS/11 */
-  .home-content {
-    font-size: 15px;
-    padding: 14px;
+/* Mobile Devices */
+@media (max-width: 768px) {
+  /* Small Phones (e.g., Samsung Galaxy J3, J5) */
+  @media (max-width: 360px) and (max-height: 640px) {
+    .home-content {
+      font-size: 14px;
+      padding: 10px;
+    }
+    .about .left img {
+      height: 200px;
+      width: 200px;
+    }
+    /* Add more styles for smaller phones as needed */
   }
 
-}
-
-@media (max-width: 1080px) and (height: 1920px) {
-  /* Styles for Samsung Galaxy S10+ */
-  .home-content {
-    font-size:16px;
-    padding: 20px;
+  /* Medium Phones (e.g., Huawei P30, P40) */
+  @media (max-width: 360px) and (max-height: 800px) {
+    .home-content {
+      font-size: 16px;
+      padding: 15px;
+    }
+    /* Add more styles for medium phones as needed */
   }
-}
 
-
-/* Samsung Galaxy S21 Ultra Styles */
-@media (max-width: 1440px) and (height: 3088px) {
-  .home-content {
-    font-size: 20px;
-    padding: 25px;
+  /* iPhone 6/6s/7/8 */
+  @media (max-width: 375px) and (max-height: 667px) {
+    .home-content {
+      font-size: 16px;
+      padding: 15px;
+    }
+    /* Add more styles for iPhone 6/6s/7/8 as needed */
   }
-  /* Add more styles for S21 Ultra as needed */
-}
 
-/* Samsung Galaxy S21, S21+, S21 FE Styles */
-@media (max-width: 1080px) and (height: 2280px) { /* S21, S21+ */
-  .home-content {
-    font-size: 18px;
-    padding: 20px;
+  /* Large Phones (e.g., iPhone XR, XS Max, iPhone 11 Pro Max) */
+  @media (max-width: 414px) and (max-height: 896px) {
+    .home-content {
+      font-size: 18px;
+      padding: 20px;
+    }
+    /* Add more styles for large phones as needed */
   }
-  /* Add more styles for S21, S21+ as needed */
-}
 
-@media (max-width: 1080px) and (height: 2400px) { /* S21 FE */
-  .home-content {
-    font-size: 18px;
-    padding: 20px;
+  /* Tablets (e.g., iPad 2, iPad Mini, iPad Air) */
+  @media (max-width: 768px) and (max-height: 1024px) {
+    .home-content {
+      font-size: 18px;
+      padding: 20px;
+    }
+    /* Add more styles for tablets as needed */
   }
-  /* Add more styles for S21 FE as needed */
-}
 
-/* ... (Your existing CSS) ... */
+  /* Larger Tablets (e.g., iPad Pro 9.7, 10.5) */
+  @media (max-width: 1536px) and (max-height: 2048px) {
+    .home-content {
+      font-size: 20px;
+      padding: 25px;
+    }
+    /* Add more styles for larger tablets as needed */
+  }
 
-/* Small Phones (e.g., Samsung Galaxy J3, J5) */
-@media (max-width: 360px) and (max-height: 640px) {
-  .home-content {
-    font-size: 14px; /* Adjust font size for smaller screens */
-    padding: 10px; /* Reduce padding */
+  /* Samsung Galaxy S21 Series */
+  @media (max-width: 1080px) and (max-height: 2280px) { /* S21, S21+ */
+    .home-content {
+      font-size: 18px;
+      padding: 20px;
+    }
+    /* Add more styles for S21, S21+ as needed */
   }
-  .about .left img {
-    height: 200px; /* Adjust image height */
-    width: 200px; /* Adjust image width */
-  }
-  /* Add more styles for smaller phones as needed */
-}
 
-/* Medium Phones (e.g., Huawei P30, P40) */
-@media (max-width: 360px) and (max-height: 800px) {
-  .home-content {
-    font-size: 16px;
-    padding: 15px;
+  @media (max-width: 1080px) and (max-height: 2400px) { /* S21 FE */
+    .home-content {
+      font-size: 18px;
+      padding: 20px;
+    }
+    /* Add more styles for S21 FE as needed */
   }
-  /* Add more styles for medium phones as needed */
-}
 
-/* iPhone 6/6s/7/8 */
-@media (max-width: 375px) and (max-height: 667px) {
-  .home-content {
-    font-size: 16px;
-    padding: 15px;
+  /* Samsung Galaxy S21 Ultra */
+  @media (max-width: 1440px) and (max-height: 3088px) {
+    .home-content {
+      font-size: 20px;
+      padding: 25px;
+    }
+    /* Add more styles for S21 Ultra as needed */
   }
-  /* Add more styles for iPhone 6/6s/7/8 as needed */
-}
 
-/* Large Phones (e.g., iPhone XR, XS Max, iPhone 11 Pro Max) */
-@media (max-width: 414px) and (max-height: 896px) {
-  .home-content {
-    font-size: 18px;
-    padding: 20px;
+  /* iPhone 14 Series */
+  @media (max-width: 1179px) and (max-height: 2556px) { /* iPhone 14, iPhone 14 Pro */
+    .home-content {
+      font-size: 18px;
+      padding: 20px;
+    }
+    /* Add more styles for iPhone 14, iPhone 14 Pro as needed */
   }
-  /* Add more styles for large phones as needed */
-}
 
-/* Tablets (e.g., iPad 2, iPad Mini, iPad Air) */
-@media (max-width: 768px) and (max-height: 1024px) {
-  .home-content {
-    font-size: 18px;
-    padding: 20px;
+  @media (max-width: 1290px) and (max-height: 2796px) { /* iPhone 14 Pro Max */
+    .home-content {
+      font-size: 18px;
+      padding: 20px;
+    }
+    /* Add more styles for iPhone 14 Pro Max as needed */
   }
-  /* Add more styles for tablets as needed */
-}
-
-/* Larger Tablets (e.g., iPad Pro 9.7, 10.5) */
-@media (max-width: 1536px) and (max-height: 2048px) {
-  .home-content {
-    font-size: 20px;
-    padding: 25px;
-  }
-  /* Add more styles for larger tablets as needed */
 }
 
 /* Laptops and Monitors */
@@ -809,4 +776,76 @@ footer .text span a:hover {
     padding: 30px;
   }
   /* Add more styles for laptops and monitors as needed */
+}
+
+/* Smaller Monitors and Netbooks */
+@media (max-width: 1280px) and (max-height: 720px) {
+  .home-content {
+    font-size: 16px;
+    padding: 15px;
+  }
+  /* Add more styles for smaller monitors and netbooks as needed */
+}
+
+/* Laptops (e.g., Dell Inspiron, Lenovo ThinkPad) */
+@media (max-width: 1366px) and (max-height: 768px) {
+  .home-content {
+    font-size: 18px;
+    padding: 20px;
+  }
+  /* Add more styles for laptops as needed */
+}
+
+/* MacBook Air 13″ and some Dell UltraSharp monitors */
+@media (max-width: 1440px) and (max-height: 900px) {
+  .home-content {
+    font-size: 18px;
+    padding: 20px;
+  }
+  /* Add more styles for MacBook Air 13″ and Dell UltraSharp monitors as needed */
+}
+
+/* Various Monitors (e.g., HP EliteDisplay, Acer Predator) */
+@media (max-width: 1920px) and (max-height: 1080px) {
+  .home-content {
+    font-size: 20px;
+    padding: 25px;
+  }
+  /* Add more styles for various monitors as needed */
+}
+
+/* High-Resolution Monitors (e.g., Apple Thunderbolt Display, ASUS ROG Swift monitor) */
+@media (max-width: 2560px) and (max-height: 1440px) {
+  .home-content {
+    font-size: 24px;
+    padding: 30px;
+  }
+  /* Add more styles for high-resolution monitors as needed */
+}
+
+/* Tablets (e.g., Samsung Galaxy Tab A, Amazon Fire HD 8) */
+@media (max-width: 800px) and (max-height: 1280px) {
+  .home-content {
+    font-size: 18px;
+    padding: 20px;
+  }
+  /* Add more styles for tablets as needed */
+}
+
+/* Tablets (e.g., Samsung Galaxy Tab S2, Google Nexus 7) */
+@media (max-width: 1200px) and (max-height: 1920px) {
+  .home-content {
+    font-size: 20px;
+    padding: 25px;
+  }
+  /* Add more styles for tablets as needed */
+}
+
+/* Devices (e.g., Amazon Fire HD 10, Lenovo Tab 4) */
+@media (max-width: 1280px) and (max-height: 800px) {
+  .home-content {
+    font-size: 18px;
+    padding: 20px;
+  }
+  /* Add more styles for devices as needed */
 }

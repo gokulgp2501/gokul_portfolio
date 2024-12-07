@@ -849,3 +849,10 @@ footer .text span a:hover {
   }
   /* Add more styles for devices as needed */
 }
+/* Samsung S25 Ultra Styles */
+@media (max-width: 1440px) and (height: 3088px) {
+  .home-content {
+    font-size: 20px;
+    padding: 25px;
+  }
+}

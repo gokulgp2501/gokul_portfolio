@@ -101,6 +101,9 @@ nav.sticky .menu a:hover {
 nav.sticky .media-icons a {
   color: #FFF;
 }
+nav.sticky .media-icons a:hover {
+  color: #000000; /* Change icon color on hover */
+}
 
 /* Side Navigation Menu Button CSS */
 nav .menu-btn,
@@ -567,6 +570,8 @@ footer .text span a:hover {
     display: none;
   }
 
+  
+
   nav .menu-btn,
   .navbar .menu .cancel-btn {
     display: block;
@@ -623,6 +628,25 @@ footer .text span a:hover {
 }
 
 /* ... (Your existing CSS) ... */
+
+#contact .media-icons {
+  display: flex; /* Arrange icons horizontally */
+  justify-content: center; /* Center icons horizontally */
+  margin-top: 20px; /* Add some spacing above the icons */
+}
+
+#contact .media-icons a {
+  margin: 0 10px; /* Add spacing between icons */
+  color: #FFA500; /* Orange color for icons */
+  font-size: 24px; /* Adjust icon size as needed */
+  transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+#contact .media-icons a:hover {
+  color: #000000; /* Change icon color on hover */
+}
+
+
 
 .home-content {
   display: flex;
